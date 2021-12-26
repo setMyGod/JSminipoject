@@ -9,7 +9,7 @@
 // index.html - все блоки с user - по 2 в ряд. кнопки/ссылки находяться под информацией про user.
 let father = document.createElement('div');
 document.body.append(father)
-document.body.style.background = 'silver'
+
 
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
@@ -35,9 +35,9 @@ fetch('https://jsonplaceholder.typicode.com/users')
             son.style.height = '200px'
             son.style.background = 'silver'
             son.style.boxSizing = 'border-box'
-            son.style.border = '4px solid black'
-            son.style.boxShadow = '12px 12px 2px 1px gray'
-            son.style.borderRadius = '5%'
+            son.style.border = '3px solid black'
+            son.style.boxShadow = '10px -10px black'
+            son.style.borderRadius = '50%'
             son.style.display ='flex'
             son.style.flexDirection = 'column'
             son.style.justifyContent = 'center'
